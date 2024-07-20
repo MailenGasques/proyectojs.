@@ -29,7 +29,7 @@ while (true) {
             break;
 
         case 2:
-            let buscarEspecie = prompt('Ingrese la especie de los pacientes a buscar(canino o felino):');
+            let buscarEspecie = prompt('Ingrese la especie de los pacientes a buscar (canino o felino):');
             let pacientesEspecie = sis.buscarEspecie(buscarEspecie);
             if (pacientesEspecie.length > 0) {
                 console.log(`Pacientes encontrados con especie ${buscarEspecie}:`);
@@ -55,7 +55,7 @@ while (true) {
             break;
 
         case 4:
-            let especieNuevo = prompt('Ingrese la especie del nuevo paciente:');
+            let especieNuevo = prompt('Ingrese la especie del nuevo paciente (canino o felino):');
             let razaNuevo = prompt('Ingrese la raza del nuevo paciente:');
             let sexoNuevo = prompt('Ingrese el sexo del nuevo paciente (hembra o macho):');
             let nombreNuevo = prompt('Ingrese el nombre del nuevo paciente:');
