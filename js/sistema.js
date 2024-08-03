@@ -4,18 +4,18 @@ class Sistema {
     }
 
     buscarNombre(nombre) {
-        nombre = nombre.toLowerCase(); 
+        nombre = nombre.toLowerCase();
         let pacienteEncontrado = this.pacientes.find(paciente => paciente.nombre.toLowerCase() === nombre);
         return pacienteEncontrado || null;
     }
 
     buscarEspecie(especie) {
-        especie = especie.toLowerCase(); 
+        especie = especie.toLowerCase();
         return this.pacientes.filter(paciente => paciente.especie.toLowerCase() === especie);
     }
 
     buscarSexo(sexo) {
-        sexo = sexo.toLowerCase(); 
+        sexo = sexo.toLowerCase();
         return this.pacientes.filter(paciente => paciente.sexo.toLowerCase() === sexo);
     }
 

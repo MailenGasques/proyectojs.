@@ -14,7 +14,7 @@ let pacientes = [
     new Paciente('felino', 'siames', 'macho', 'Homero'),
     new Paciente('canino', 'bulldog frances', 'hembra', 'India'),
     new Paciente('canino', 'caniche', 'hembra', 'Sofia'),
-    new Paciente('felino', 'mestizo', 'hembra', 'Lola'),
+    new Paciente('felino', 'mestizo', 'hembra', 'Carmina'),
     new Paciente('felino', 'mestizo', 'macho', 'Chino'),
     new Paciente('canino', 'ovejero aleman', 'macho', 'Terry'),
     new Paciente('canino', 'mestizo', 'hembra', 'Rubia'),
